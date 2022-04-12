@@ -10,8 +10,6 @@ class RozetkaShoesParser:
     def __init__(self, url, file):
         self.url = url
         self.file = file
-        self.props = []
-        self.title = ""
 
     def get_product_link(self, product_name):
         search = requests.get(self.url, headers=self.headers).text
