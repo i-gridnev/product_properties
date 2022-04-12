@@ -12,6 +12,8 @@ platformdirs==2.5.1
 pycodestyle==2.8.0
 pylint==2.13.5
 requests==2.27.1
+requests-mock==1.9.3
+six==1.16.0
 soupsieve==2.3.2
 toml==0.10.2
 tomli==2.0.1
